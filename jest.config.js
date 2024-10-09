@@ -1,7 +1,7 @@
 const dontenv = require("dotenv");
 dontenv.config({
   path: ".env.development",
-})
+});
 
 const nextJest = require("next/jest");
 
